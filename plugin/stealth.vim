@@ -1,3 +1,3 @@
-com! ToggleHideComment call stealth#toggle()
+com! Stealth call stealth#toggle()
 
-nn <Leader>x :ToggleHideComment<CR>
+nn <Leader>x :Stealth<CR>
