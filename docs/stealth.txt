@@ -1,0 +1,66 @@
+*stealth.txt*  Toggle the visibility of comments.
+
+                                 vim-stealth
+CONTENTS                                                         *vim-stealth*
+
+    1. Introduction ................................ |vim-stealth-introduction|
+    2. Requirements ................................ |vim-stealth-requirements|
+    3. Options ..................................... |vim-stealth-options|
+    4. Commands .................................... |vim-stealth-commands|
+    5. Mappings .................................... |vim-stealth-mappings|
+
+==============================================================================
+INTRODUCTION                                        *vim-stealth-introduction*
+
+Stealth is a plugin for toggling the visibility of comments.
+
+==============================================================================
+REQUIREMENTS                                        *vim-stealth-requirements*
+
+A Vim version 7.4 or higher is required for basic functionality.
+
+==============================================================================
+OPTIONS                                                  *vim-stealth-options*
+
+    g:stealth#use_default_mappings .......... |g:stealth#use_default_mappings|
+    g:stealth#reveal_on_move ................ |g:stealth#reveal_on_move|
+
+------------------------------------------------------------------------------
+                                              *g:stealth#use_default_mappings*
+Type: bool ~
+Default: v:true ~
+
+If set to `v:true`, use the following default mappings:
+>
+    nmap <C-g>s <Plug>(Stealth)
+>
+------------------------------------------------------------------------------
+                                                     *g:stealth#reveal_on_move*
+Type: bool ~
+Default: v:true ~
+
+When set to `v:true`, comments will be automatically revealed when the cursor
+moves.
+
+==============================================================================
+COMMANDS                                                *vim-stealth-mappings*
+
+    :Stealth ...................................................... |:Stealth|
+
+==============================================================================
+                                                                    *:Stealth*
+Toggle the visibility of comments on/off.
+
+==============================================================================
+MAPPINGS                                                *vim-stealth-mappings*
+
+    <Plug>(Stealth) ........................................ |<Plug>(Stealth)|
+
+------------------------------------------------------------------------------
+                                                             *<Plug>(Stealth)*
+Default: <C-g>s~
+>
+Toggle the visibility of comments on/off.
+
+==============================================================================
+" vim:tw=78:ts=4:sts=4:sw=4:ft=help:norl:

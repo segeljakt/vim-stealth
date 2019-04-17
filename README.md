@@ -12,35 +12,28 @@ Stealth is a plugin for toggling the visibility of comments. It provides one com
 
 # Installation
 
-With [Vundle](https://github.com/VundleVim/Vundle.vim):
+With [Vundle](https://github.com/VundleVim/Vundle.vim), put this in your `vimrc`:
 
 ```
-Plugin 'klassegeljakt/vim-stealth'
+Plugin 'segeljakt/vim-stealth'
 ```
 
-With [NeoBundle](https://github.com/Shougo/neobundle.vim):
+With [NeoBundle](https://github.com/Shougo/neobundle.vim), put this in your `vimrc`:
 
 ```
-NeoBundle 'klassegeljakt/vim-stealth'
+NeoBundle 'segeljakt/vim-stealth'
 ```
 
-With [Plug](https://github.com/junegunn/vim-plug):
+With [Plug](https://github.com/junegunn/vim-plug), put this in your `vimrc`:
 
 ```
-Plug 'klassegeljakt/vim-stealth'
+Plug 'segeljakt/vim-stealth'
 ```
 
-With [Pathogen](https://github.com/tpope/vim-pathogen):
+With [Pathogen](https://github.com/tpope/vim-pathogen), execute this at the command line:
 
 ```
 cd ~/.vim/bundle
-git clone https://github.com/klassegeljakt/vim-stealth
+git clone https://github.com/segeljakt/vim-stealth
 ```
 
-# Future work
-
-* Write documentation.
-* Stealth other kinds of highlight groups.
-* Write unit tests.
-
-# Contributions are welcome!
